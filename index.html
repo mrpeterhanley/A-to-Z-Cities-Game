@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <title>A to Z Cities Guessing Game</title>
+  </head>
+  <body>
+    <div class="container mt-3">
+      <h1 class="mb-3 text-center">A to Z of Cities Guessing Game</h1>
+      <div class="card-columns">
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1534351590666-13e3e96b5017?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard1"
+            >
+              A is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-primary"
+            id="collapseCard1"
+          >
+            <h5 class="text-center">Amsterdam (Netherlands)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1557080985-637c8cddf98a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard2"
+            >
+              B is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-success"
+            id="collapseCard2"
+          >
+            <h5 class="text-center">Barcelona (Spain)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1535744674503-ae654206da32?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard3"
+            >
+              C is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-warning"
+            id="collapseCard3"
+          >
+            <h5 class="text-center">Colombo (Sri Lanka)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1583429891508-015ef9cd958e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=656&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard4"
+            >
+              D is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-danger"
+            id="collapseCard4"
+          >
+            <h5 class="text-center">Dhaka (Bangladesh)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1577648760688-d5bfd22b8df7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard5"
+            >
+              E is for...
+            </button>
+          </div>
+          <div class="card-body collapse text-white bg-info" id="collapseCard5">
+            <h5 class="text-center">Edinburgh (Scotland)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1542344807-157f76301e8a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard6"
+            >
+              F is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-secondary"
+            id="collapseCard6"
+          >
+            <h5 class="text-center">Frankfurt (Germany)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1575041764111-b407991d6826?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard7"
+            >
+              G is for...
+            </button>
+          </div>
+          <div class="card-body collapse text-white bg-dark" id="collapseCard7">
+            <h5 class="text-center">Guangzhou (China)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1496310438464-0ce6b63f96bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard8"
+            >
+              H is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-primary"
+            id="collapseCard8"
+          >
+            <h5 class="text-center">Hanoi (Vietnam)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1553537316-86354ef82879?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1265&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard9"
+            >
+              I is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-warning"
+            id="collapseCard9"
+          >
+            <h5 class="text-center">Innsbruck (Austria)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1573654062904-e036c36ed970?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard10"
+            >
+              J is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-success"
+            id="collapseCard10"
+          >
+            <h5 class="text-center">Jakarta (Indonesia)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard11"
+            >
+              K is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-dark"
+            id="collapseCard11"
+          >
+            <h5 class="text-center">Kyoto (Japan)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1513377888081-794d8e958972?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard12"
+            >
+              L is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-danger"
+            id="collapseCard12"
+          >
+            <h5 class="text-center">Lisbon (Portugal)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1555414244-80c33ca2e497?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard13"
+            >
+              M is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-info"
+            id="collapseCard13"
+          >
+            <h5 class="text-center">Manila (Philippines)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1562141775-798daf808a6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=672&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard14"
+            >
+              N is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-secondary"
+            id="collapseCard14"
+          >
+            <h5 class="text-center">Nairobi (Kenya)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1513866205462-46f40a16e97b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard15"
+            >
+              O is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-primary"
+            id="collapseCard15"
+          >
+            <h5 class="text-center">Oslo (Norway)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard16"
+            >
+              P is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-warning"
+            id="collapseCard16"
+          >
+            <h5 class="text-center">Paris (France)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1576679597431-7a72d55c9090?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard17"
+            >
+              Q is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-success"
+            id="collapseCard17"
+          >
+            <h5 class="text-center">Quebec City (Canada)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1286&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard18"
+            >
+              R is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-dark"
+            id="collapseCard18"
+          >
+            <h5 class="text-center">Rome (Italy)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1502175353174-a7a70e73b362?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1570&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard19"
+            >
+              S is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-danger"
+            id="collapseCard19"
+          >
+            <h5 class="text-center">Seattle (USA)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1500990702037-7620ccb6a60a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard20"
+            >
+              T is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-info"
+            id="collapseCard20"
+          >
+            <h5 class="text-center">Tel Aviv (Israel)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1575415868394-e3b78f3e9b3f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1547&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard21"
+            >
+              U is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-secondary"
+            id="collapseCard21"
+          >
+            <h5 class="text-center">Ulaanbaatar (Mongolia)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=630&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard22"
+            >
+              V is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-primary"
+            id="collapseCard22"
+          >
+            <h5 class="text-center">Venice (Italy)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1592448981182-eaf30713032a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard23"
+            >
+              W is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-warning"
+            id="collapseCard23"
+          >
+            <h5 class="text-center">Washington, D.C. (USA)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1565343904200-1307ffd712a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=663&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard24"
+            >
+              X is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-success"
+            id="collapseCard24"
+          >
+            <h5 class="text-center">Xian (China)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1588693273793-5a4c06ee9d33?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard25"
+            >
+              Y is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-dark"
+            id="collapseCard25"
+          >
+            <h5 class="text-center">Yokohama (Japan)</h5>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1543438853-846a663e58d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=560&q=80"
+            class="card-img-top"
+          />
+          <div class="card-header text-center">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseCard26"
+            >
+              Z is for...
+            </button>
+          </div>
+          <div
+            class="card-body collapse text-white bg-danger"
+            id="collapseCard26"
+          >
+            <h5 class="text-center">Zagreb (Croatia)</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
